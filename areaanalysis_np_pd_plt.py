@@ -1,6 +1,6 @@
 """ 
 Automated image analysis pipeline (for macOS and Windows) for threshold-based quantification of 
-fluorescence signals in microscopy images, processing datasets of single-channel fluorescence images. Can be applied to other types of images.
+fluorescence signals in microscopy images, processing datasets of single-channel fluorescence images. 
 This script processes grayscale fluorescence images by applying a binary threshold,
 measures fluorescent areas, saves the results and binary masks. It performs group-based
 statistical analysis (normality, ANOVA/Kruskal-Wallis) and saves the data to Excel 
@@ -215,7 +215,7 @@ def analyze_groups(df):
 
 
 if __name__ == "__main__":
-    input_folder = "/Users/sandraschwarz/Documents/Coding/image_analysis/image_files"  
+    input_folder = "/Users/x/Documents/Coding/image_analysis/image_files"  
     output_folder = "./output_masks"
     
     # Process images
@@ -241,6 +241,7 @@ if __name__ == "__main__":
 
         except Exception as e:
             print(f"Error reading the Excel file: {e}") 
+            exit()
         
         # Run statistical analysis
         analyze_groups(df)
