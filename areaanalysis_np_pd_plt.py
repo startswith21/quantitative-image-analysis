@@ -288,7 +288,7 @@ def analyze_groups(df):
 
 try: 
     if __name__ == "__main__":
-        input_folder = "/Users/sandraschwarz/Documents/Coding/image_analysis/image_files"  
+        input_folder = "/Users/x/Documents/Coding/image_analysis/image_files"  
         output_folder = "./output_masks"
 
     # Process images
