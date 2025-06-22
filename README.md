@@ -80,6 +80,6 @@ Bar plot comparing group means and standard deviation
 
 
 ## Credits
-- Built with the help of OpenAI-generated scaffolds
+- Built with the help of AI-generated scaffolds
 - Customized, extended and debugged manually
 - Created to better understand statistics, plotting and use of Excel with Python
